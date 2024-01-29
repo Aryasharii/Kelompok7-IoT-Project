@@ -96,15 +96,14 @@ A full stack IOT application to automate the checking if the temperature in incu
 ``` -->
 <!-- ![Light Module sensor from Cytron](https://github.com/Rekanice/swe-G2-iot-project/blob/f124691cfb8c146144e130dbb8553d363e562a06/images/light_sensor_module.jpg)
 ![NodeMCU ESP8266](https://github.com/Rekanice/swe-G2-iot-project/blob/e8a1b532913f9c267a11f2c236fd56e05f51c070/images/nodemcu_ESP8266.jpg) -->
-
+- Sensor    : DHT11
+- MCU       : ESP32
+- Indicator : LED, Telegram Bot Notification
 <br/>
 
 #### Hardware Setup <a name="hwsetup"></a>
 
 <!-- ![Device setup](https://github.com/Rekanice/swe-G2-iot-project/blob/d76a08e94ea6444962755b7ac9bf270c3a8d7b9a/images/device_setup.jpg) -->
-- Sensor    : DHT11
-- MCU       : ESP32
-- Indicator : LED, Telegram Bot Notification
 
 <br/>
 
