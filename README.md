@@ -18,24 +18,21 @@ L Test              - A Python script to test collaborating on Github (Milestone
 
 ### Table of contents
 
-1. [Main Project Details](#project)
-
-   1. [Problem Statement](#prob)
-   2. [Proposed solution](#sol)
-   3. [Use Case diagram](#uc)
-   4. [System architecture](#sysarc)
-   5. [Hardware](#hw)
-   6. [Communication Protocol](#comm)
-   7. [Server & Hosting](#cloud)
-   8. [Frontend](#ui)
-
-2. [Updates](#updates)
-
-   1. [Milestone 3: Send realtime sensor data to cloud server](#mi3)
-   2. [Milestone 4: Send sensor data to database, Flask server reads data from database](#mi4)
-   3. [Milestone 5: Dashboard UI improvements](#mi5)
-
-3. [Demo Videos Rewind](#rewind)
+- [Kelompok7-IoT-Project](#kelompok7-iot-project)
+    - [Navigate this repo](#navigate-this-repo)
+    - [Table of contents](#table-of-contents)
+- [Main Project: Smart Incubator ](#main-project-smart-incubator-)
+    - [Problem Statement ](#problem-statement-)
+    - [Our Solution ](#our-solution-)
+    - [Use case diagram ](#use-case-diagram-)
+    - [Hardware ](#hardware-)
+      - [Hardware Setup ](#hardware-setup-)
+    - [Communication Protocol ](#communication-protocol-)
+    - [Cloud Platform \& Web server ](#cloud-platform--web-server-)
+    - [Dashboard Frontend ](#dashboard-frontend-)
+- [Updates ](#updates-)
+    - [Milestone 4: Send sensor data to database, Flask server reads data from database ](#milestone-4-send-sensor-data-to-database-flask-server-reads-data-from-database-)
+- [Milestones Demo Videos Rewind ](#milestones-demo-videos-rewind-)
 
 <br/>
 
@@ -105,14 +102,15 @@ A full stack IOT application to automate the checking if the temperature in incu
 #### Hardware Setup <a name="hwsetup"></a>
 
 <!-- ![Device setup](https://github.com/Rekanice/swe-G2-iot-project/blob/d76a08e94ea6444962755b7ac9bf270c3a8d7b9a/images/device_setup.jpg) -->
+- Sensor    : DHT11
+- MCU       : ESP32
+- Indicator : LED, Telegram Bot Notification
 
 <br/>
 
 ### Communication Protocol <a name="comm"></a>
 
-<!-- ```
-HTTP
-``` -->
+The communication protocol used in this project is API based. Data from DHT11 will sent every 1 minutes or when users do commands, to Telegram bot then Temperature and Humidity will show as notification or chat from Telegram bot. 
 
 <br/>
 
